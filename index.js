@@ -5,6 +5,6 @@ app.get('/', function (req, res) {
   res.send('Hello World from Soumili AWS Lab')
 })
 
-app.listen(4000, () => {
+app.listen(4000, '0.0.0.0', () => {
   console.log("Started server");
 })
